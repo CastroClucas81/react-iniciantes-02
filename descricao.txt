@@ -1,0 +1,29 @@
+
+Lá no package.json em scripts tem uma conf escrita react-scripts q é a configuração do babel
+
+roda o react no modo strict. Ou seja, vai definir algumas regras específicas
+para criar uma aplicação q vai previnir alguns bugs
+<React.StrictMode>
+
+OBS.: new Date()... lembre-se de usar para datas
+  
+JSX -> JAVA SCRIPT EXTENDIDO... DÁ PARA ELE NOVAS FUNCIONALIDADES -----------------------------------------
+    - className="" -> class=""
+    - htmlFor="" -> for=""
+
+palavras compostas devem ser feitas com o camelcase
+    - <video autoPlay> -> <video autoPlay>
+
+CSS INTERNO EXEMPLO 
+    const style = {
+        color: 'blue',
+        fontSize: '10px',
+        fontFamily: 'Arial'
+    }
+
+    style={style} or style={{color: 'blue'}}
+
+INSTALAR AS ROTAS
+    npm install history react-router-dom@next
+
+ 
